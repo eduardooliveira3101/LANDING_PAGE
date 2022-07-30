@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(24, 8, 8);
+    color: antiquewhite;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: red;
+}
+
+#title {
+    line-height: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+#title:hover {
+
+    color: red;
+    transition: 0.5s;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+    max-height: 600px;
+}
+
+aside {
+    max-width: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+span {
+    color: red;
+}
+
+p {
+    margin-top: 20px;
+    max-width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+   
+}
+
+input {
+    margin-top: 5px;
+    height: px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    font-size: 15px;
+}
+
+input:hover {
+    border-color: red;
+    transition:  0.5s;
+
+
+}
+
+img {
+    width: 300px;
+    height: 430px;
+}
+
+#button {
+
+    height: 40px;
+    width: 50%;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+#button:hover {
+    color:aliceblue;
+    background-color: red;
+    transition: 0.3s;
+}
+
+
+
+
